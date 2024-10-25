@@ -4,17 +4,21 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 4000",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "commit": "git-cz"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.5.7",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "cz-conventional-changelog": "^3.3.0",
     "nuxt": "^3.13.2",
     "vue": "latest",
-    "vue-router": "latest",
-    "cz-conventional-changelog": "^3.3.0"
+    "vue-router": "latest"
   },
   "config": {
     "commitizen": {
