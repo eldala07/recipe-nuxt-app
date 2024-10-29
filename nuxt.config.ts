@@ -21,6 +21,10 @@ export default defineNuxtConfig({
     }
   },
 
+  image: {
+    domains: ['cdn.dummyjson.com']
+  },
+
   unhead: {
     renderSSRHeadOptions: {
       omitLineBreaks: false
